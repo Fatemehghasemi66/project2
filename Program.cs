@@ -26,6 +26,14 @@
             }
             Divider();
 
+            Console.WriteLine("Hellocsharp!");
+            Divider();
+            Console.WriteLine("please enter your gender? (m,F)");
+            string genderSTR2 = Console.ReadLine();
+            Console.WriteLine("pleas enter your age");
+            string ageSTR2 = Console.ReadLine();
+            int age2 = Convert.ToInt32(ageSTR);
+
             bool gender = default;
             gender = genderSTR == "F" && age <=30? true : false;    
             
