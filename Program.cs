@@ -24,6 +24,7 @@
             {
                 Console.WriteLine("reject");
             }
+            Divider();
 
             bool gender = default;
             gender = genderSTR == "F" && age <=30? true : false;    
